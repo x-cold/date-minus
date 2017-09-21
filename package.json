@@ -1,0 +1,22 @@
+{
+  "name": "date-minus",
+  "version": "1.0.0",
+  "description": "Date minus by pure javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x-cold/date-minus.git"
+  },
+  "keywords": [
+    "date"
+  ],
+  "author": "x-cold",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/x-cold/date-minus/issues"
+  },
+  "homepage": "https://github.com/x-cold/date-minus#readme"
+}
