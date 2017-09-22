@@ -6,8 +6,19 @@ function getDaysInMonth(month) {
 /**
  * 时间减法，参考借位减法
  * 
- * @param {Date} date 传入时间（过去）
- * @return {Object} 时间差
+ * @param {Date|Number} date 被减数
+ * @param {Date|Number} date 减数
+ * 
+ * @return {Object} date 时间差
+ * @return {Number} date.passed 是否为过去时间
+ * @return {Number} date.date 被减数
+ * @return {Number} date.current 减数
+ * @return {Number} date.years 年
+ * @return {Number} date.months 月
+ * @return {Number} date.days 日
+ * @return {Number} date.hours 
+ * @return {Number} date.minutes 分
+ * @return {Number} date.seconds 秒
  */
 function dateMinus(date, current) {
   if (typeof current !== 'object') {
@@ -82,7 +93,9 @@ function dateMinus(date, current) {
     hours,
     minutes,
     seconds,
-    passed
+    passed,
+    date,
+    current
   }
 }
 
