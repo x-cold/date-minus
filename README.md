@@ -13,7 +13,7 @@ var howlong = dateMinus(preDate);
 
 ### output
 
-```json
+```js
 {
   "years": 8,
   "months": 0,
@@ -31,6 +31,7 @@ var howlong = dateMinus(preDate);
 
 ### input
 
-| 参数名	| 类型 |	默认值 |	备注 |
-| date | Date/Number |	当前时间 |	减数 |
-| current |	Date/Number |	当前时间 |被减数 |
+参数名	| 类型 |	默认值 |	备注
+-|-|-|-
+date | Date/Number |	当前时间 |	减数
+current |	Date/Number |	当前时间 | 被减数
